@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e7c4f33-80c8-427d-a657-45f69463869d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/DeleteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/EditCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/ViewCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoAccessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoCartridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoEvaporator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoLiquid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/DaoShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/daoImpl/DaoAccessoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/daoImpl/DaoCartridgeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/daoImpl/DaoDescriptionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/daoImpl/DaoDeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/daoImpl/DaoEvaporatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/daoImpl/DaoLiquidImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/daoImpl/DaoProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/daoImpl/DaoShopImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/AccessoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/CartridgeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/DescriptionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/DeviceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/EvaporatorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/LiquidDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/ProviderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/ShopDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Accessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Cartridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Description.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Evaporator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Liquid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/AccessoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/CartridgeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/DescriptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/DeviceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/EvaporatorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/LiquidMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/ProviderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/ShopMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/impl/AccessoryMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/impl/CartridgeMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/impl/DescriptionMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/impl/DeviceMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/impl/EvaporatorMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/impl/LiquidMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/impl/ProviderMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mapper/impl/ShopMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/AccessoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/CartridgeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/DescriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/EvaporatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/LiquidService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/serviceImpl/AccessoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/serviceImpl/CartridgeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/serviceImpl/DescriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/serviceImpl/DeviceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/serviceImpl/EvaporatorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/serviceImpl/LiquidServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/serviceImpl/ProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/serviceImpl/ShopServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MVE7jKKDBEZukkE0R68ovhdoKy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\matvey\IdeaProjects\vapeShop\src\main\java" />
+      <recent name="C:\Users\matvey\IdeaProjects\vapeShop\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dao" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="vapeShop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e7c4f33-80c8-427d-a657-45f69463869d" name="Changes" comment="" />
+      <created>1677844185797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677844185797</updated>
+      <workItem from="1677844187047" duration="179000" />
+      <workItem from="1677844376704" duration="3152000" />
+      <workItem from="1678204905471" duration="3838000" />
+      <workItem from="1678277914092" duration="613000" />
+      <workItem from="1678367923109" duration="1346000" />
+      <workItem from="1678370193800" duration="2349000" />
+      <workItem from="1678706091245" duration="6206000" />
+      <workItem from="1678793330810" duration="1208000" />
+      <workItem from="1678883906914" duration="21075000" />
+      <workItem from="1678961971236" duration="7615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
